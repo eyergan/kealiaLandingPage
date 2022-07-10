@@ -1,3 +1,30 @@
+body {
+  background-image: url(kealiaBackground.png);
+  background-size: 100%;
+  background-color: white;
+  padding: 50px 50px 50px 50px;
+}
+
 .hero {
   padding: 135px 20px 125px 20px;
+}
+
+.font-color {
+  color: rgb(252, 249, 244);
+}
+
+.btn {
+  border: 0px;
+  border-radius: 20px;
+  background: rgb(100, 163, 111);
+}
+
+.btn:hover {
+  background: rgb(252, 249, 244);
+  color: rgb(100, 163, 111);
+  transition-duration: 0.2s;
+}
+
+a {
+  color: rgb(252, 249, 244, 75%);
 }
